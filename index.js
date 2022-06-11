@@ -8,8 +8,6 @@ class Account {
 
 }
 
-
-
 class Transaction {
 
   constructor(amount, account) {
@@ -60,3 +58,9 @@ t2.value = 1000000000 //not allowed
 t2.commit();
 
 console.log('Ending Balance:', myAccount.balance);
+
+
+// Stretch: Keep track of Transactions
+
+
+// Stretch: Validate Withdrawals
